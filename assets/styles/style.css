@@ -1,0 +1,738 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style */
+
+/* Styling untuk header */
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    overflow: auto;
+    height: 350px;
+}
+
+.jumbotron {
+    background-color: #7ddcff;
+    color: black;
+    height: 75%;
+    text-align: center;
+    padding: 52px 0;
+}
+
+.judul {
+    font-size: 73px;
+    font-family: Gaegu, 'Schoolbell', 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.judul span {
+    color: white;
+    font-weight: 700;
+}
+
+.jumbotron p {
+    color: black;
+    font-family: 'Schoolbell';
+    background-color: #ffe97d;
+    border: 3px dashed #fff;
+    padding: 14px;
+}
+
+.jumbotron p span {
+    border-radius: 10px;
+    border: 2px solid #ffe97d;
+    padding: 4px;
+    background-color: white;
+    box-shadow: 0 1px 2px 0 lightslategrey;
+}
+
+.container nav {
+    background-color: #6eb6e6;
+    height: 25%;
+    padding: 35px;
+}
+
+.container nav li{
+    display: inline;
+    margin-right: 40px;
+    border-radius: 20px;
+    padding: 16px;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.container nav ul {
+    
+}
+.container nav a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    color: #fff;
+    font-weight: normal;
+    padding: 10px;
+}
+
+.container nav li:hover {
+    background-color: #ffe97d;
+}
+
+.container nav a:hover {
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Styling untuk main */
+
+main {
+    background-image: url('../images/bg1.png');
+}
+
+.hero {
+    width: 100%;
+}
+
+#content {
+    font-family: 'Montserrat';
+    display: block;
+    width: 100%;
+    overflow: auto;
+}
+
+.fitur h2 {
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Gaegu;
+    font-weight: 700;
+}
+
+.fitur h3 {
+    font-size: 28px;
+    font-family: Gaegu;
+}
+
+.fitur p {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.fitur a {
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.kiri {
+    float: left;
+    width: 50%;
+}
+
+aside {
+    float: right;
+    width: 50%;
+}
+
+.card {
+    border-radius: 5px;
+    padding: 30px;
+    height: 300px;
+    margin: 10% 10% 100px 10%;
+    text-align: justify;
+    border-left: 25px solid #7ddcff;
+    background-color: white;
+    overflow: auto;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffe97d;
+    border-left: 15px dashed white;
+    border-spacing: 8px;
+}
+
+/* Styling untuk About */
+
+.about {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffe97d;
+    border-top: 30px dotted white;
+    margin: 0 60px 60px 60px;
+    overflow: auto;
+}
+
+.judul2 {
+    margin-top: 100px;
+    font-family: Gaegu;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.company p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 25px;
+    word-spacing: 5px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-indent: 50px;
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border: 2px solid #ffff7f;
+}
+
+.about .kiri {
+    width: 50%;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+figcaption {
+    font-family: 'Schoolbell';
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 60px;
+    margin: 10px 20% 0 20%; 
+}
+
+.judul3 {
+    font-family: Gaegu;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.about aside {
+    width: 50%;
+}
+
+.about aside p {
+    margin: 10% 5% 0 3%;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 20px;
+    border-left: 3px solid #6eb6e6;
+    padding-left: 10px;
+}
+
+/* Styling untuk footer */
+
+footer {
+    background-color: #6eb6e6;
+    padding: 30px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+@media screen and (width: 280px){
+    * {
+        width: auto;
+        float: none;
+    }
+    
+    .card {
+        margin: 10% 10% 50px 10%;
+        overflow: auto;
+    }
+
+    .kiri, aside {
+        width: 100%;
+    }
+
+    .fitur h3 {
+        font-size: 28px;
+    }
+
+    .fitur p {
+        font-family: 'Montserrat';
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .fitur a {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .container nav {
+        padding: 2px;
+    }
+
+    .container nav ul {
+        margin-top: 11%;
+        margin-left: 3%;
+    }
+
+    .container nav li {
+        padding: 1px;
+        margin-right: 1px;
+    }
+    
+    .container nav a {
+        font-size: 10px;
+    }
+
+    .about {
+        margin: 30px;
+    }
+
+    .company p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+        text-indent: 0;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    figcaption {
+        margin: 10px;
+    }
+
+    .about .kiri {
+        width: 100%;
+    }
+    
+    .about aside {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+        overflow: hidden;
+        font-size: 10px;
+    }
+}
+
+@media screen and (width: 320px){
+    * {
+        width: auto;
+        float: none;
+    }
+    
+    .card {
+        margin: 10% 10% 50px 10%;
+        overflow: auto;
+    }
+
+    .kiri, aside {
+        width: 100%;
+    }
+
+    .fitur h3 {
+        font-size: 28px;
+    }
+
+    .fitur p {
+        font-family: 'Montserrat';
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .fitur a {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .container nav {
+        padding: 2px;
+    }
+
+    .container nav ul {
+        margin-top: 9.5%;
+        margin-left: 4.5%;
+    }
+
+    .container nav li {
+        padding: 1px;
+        margin-right: 1px;
+    }
+    
+    .container nav a {
+        font-size: 12px;
+    }
+
+    .about {
+        margin: 30px;
+    }
+
+    .company p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+        text-indent: 0;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    figcaption {
+        margin: 10px;
+    }
+
+    .about .kiri {
+        width: 100%;
+    }
+    
+    .about aside {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+        overflow: hidden;
+        font-size: 10px;
+    }
+}
+
+@media screen and (width: 360px){
+    * {
+        width: auto;
+        float: none;
+    }
+    
+    .card {
+        margin: 10% 10% 50px 10%;
+        overflow: auto;
+    }
+
+    .kiri, aside {
+        width: 100%;
+    }
+
+    .fitur h3 {
+        font-size: 28px;
+    }
+
+    .fitur p {
+        font-family: 'Montserrat';
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .fitur a {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .container nav {
+        padding: 2px;
+    }
+
+    .container nav ul {
+        margin-top: 9%;
+        margin-left: 2%;
+    }
+
+    .container nav li {
+        padding: 1px;
+        margin-right: 5px;
+    }
+    
+    .about {
+        margin: 30px;
+    }
+
+    .company p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+        text-indent: 0;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    figcaption {
+        margin: 10px;
+    }
+
+    .about .kiri {
+        width: 100%;
+    }
+    
+    .about aside {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+        overflow: hidden;
+        font-size: 10px;
+    }
+}
+
+@media screen and (width: 375px){
+    * {
+        width: auto;
+        float: none;
+    }
+    
+    .card {
+        margin: 10% 10% 50px 10%;
+        overflow: auto;
+    }
+
+    .kiri, aside {
+        width: 100%;
+    }
+
+    .fitur h3 {
+        font-size: 28px;
+    }
+
+    .fitur p {
+        font-family: 'Montserrat';
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .fitur a {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .container nav {
+        padding: 2px;
+    }
+
+    .container nav ul {
+        margin-top: 8%;
+        margin-left: 4%;
+    }
+
+    .container nav li {
+        padding: 2px;
+        margin-right: 5px;
+    }
+    
+    .about {
+        margin: 30px;
+    }
+
+    .company p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+        text-indent: 0;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    figcaption {
+        margin: 10px;
+    }
+
+    .about .kiri {
+        width: 100%;
+    }
+    
+    .about aside {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+        overflow: hidden;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width:450px) {
+    * {
+        width: auto;
+        float: none;
+    }
+    
+    .card {
+        margin: 10% 10% 50px 10%;
+        overflow: auto;
+    }
+
+    .kiri, aside {
+        width: 100%;
+    }
+
+    .fitur h3 {
+        font-size: 28px;
+    }
+
+    .fitur p {
+        font-family: 'Montserrat';
+        font-size: 10px;
+        line-height: 15px;
+        font-weight: 300;
+        text-align: left;
+    }
+
+    .fitur a {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .container nav {
+        padding: 2px;
+    }
+
+    .container nav ul {
+        margin-top: 8.5%;
+        margin-left: 8.5%;
+    }
+
+    .container nav li {
+        padding: 1px;
+        margin-right: 5px;
+    }
+    
+    .about {
+        margin: 30px;
+    }
+
+    .company p {
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+        text-indent: 0;
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    figcaption {
+        margin: 10px;
+    }
+
+    .about .kiri {
+        width: 100%;
+    }
+    
+    .about aside {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+        overflow: hidden;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (min-width: 786px) and (max-width: 850px) {
+    * {
+        width: auto;
+        float: none;
+    }
+
+    .card {
+        overflow: auto;
+    }
+
+    .fitur p {
+        font-size: 10px;
+    }
+
+    .container nav {
+        padding: 2px;
+    }
+
+    .container nav ul {
+        margin-top: 4%;
+        margin-left: 6%;
+    }
+
+    .container nav li {
+        padding: 5px;
+        margin-right: 10px;
+    }
+
+    .fitur p {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .about .kiri {
+        width: 100%;
+    }
+    
+    .about aside {
+        width: 100%;
+        padding: 0;
+        float: none;
+        overflow: hidden;
+        font-size: 10px;
+    }
+}
